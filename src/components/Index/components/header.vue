@@ -1,10 +1,9 @@
 <template>
   <div class="container-fluid header" :style="{ backgroundImage: `url('/static/cover-photo.jpg')` }">
     <div class="row">
-      <div class="col-md-6 col-md-offset-3 header-text">
+      <div class="col-md-6 offset-md-3 header-text">
         <h1>{{ $t('PROGRAM_NAME') }}</h1>
-        <p>&nbsp;</p>
-        <button class="btn btn-success btn-lg">{{ $t('APPLY_NOW') }}</button>
+        <button class="btn btn-primary btn-lg">{{ $t('APPLY_NOW') }}</button>
       </div>
     </div>
   </div>
