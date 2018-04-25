@@ -14,13 +14,14 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">{{ $t('SCHEDULE') }}</a></li>
             <li><a href="#">{{ $t('SPONSOR') }}</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ $t('LANGUAGE') }} <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li @click="setLanguage('en-US')"><a href="#">English (US)</a></li>
+                <li @click="setLanguage('en-US')"><a href="#">English</a></li>
                 <li class="divider"></li>
-                <li @click="setLanguage('zh-TW')"><a href="#">繁體中文 (臺灣國)</a></li>
+                <li @click="setLanguage('zh-TW')"><a href="#">繁體中文</a></li>
               </ul>
             </li>
           </ul>
