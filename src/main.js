@@ -10,14 +10,10 @@ import VueLocalStorage from 'vue-localstorage'
 import VueI18n from 'vue-i18n'
 import i18nConfig from '@/i18n/index'
 
-// Flag Icon
-import FlagIcon from 'vue-flag-icon'
-
 Vue.config.productionTip = false
 
 Vue.use(VueI18n)
 Vue.use(VueLocalStorage)
-Vue.use(FlagIcon)
 
 const i18n = new VueI18n({
   locale: navigator.language,
