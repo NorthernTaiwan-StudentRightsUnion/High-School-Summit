@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid header" :style="{ backgroundImage: `url('/static/cover-photo.jpg')` }">
+  <div class="container-fluid header" :style="{ backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/high-school-summit.appspot.com/o/cover-photo.jpg?alt=media&token=56ded2b6-b240-4688-9732-0c0ca3b6ea3f')` }">
     <div class="row">
       <div class="col-md-6 offset-md-3 header-text">
         <h1>{{ $t('PROGRAM_NAME') }}</h1>
